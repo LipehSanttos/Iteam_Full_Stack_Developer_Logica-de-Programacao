@@ -8,8 +8,8 @@ Var
 
 
 Inicio
-// Seção de Comandos
-escreva("Olá, Mundo!")
+    // Seção de Comandos
+    escreva("Olá, Mundo!")
 
 
 fimalgoritmo

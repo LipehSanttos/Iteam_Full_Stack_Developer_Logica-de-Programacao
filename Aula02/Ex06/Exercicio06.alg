@@ -5,7 +5,7 @@ Algoritmo "Exercicio06"
 // Data: 04/08/2026
 
 Var
-  saldoTotal, valorSaque, saldo : real
+saldoTotal, valorSaque, saldo : real
 
 
 Inicio
@@ -19,16 +19,16 @@ Inicio
   leia(valorSaque)
 
   se (valorSaque > saldo) entao //Testando se o usuário não informou um valor além do disponível
-    escreval("Opa, você informou um valor maior que o disponível! Operação Encerrada!")
-  senao
+  escreval("Opa, você informou um valor maior que o disponível! Operação Encerrada!")
+senao
 
-    saldoTotal <- saldo - valorSaque // Realizando a Operação na conta
+  saldoTotal <- saldo - valorSaque // Realizando a Operação na conta
 
-    escreval("Você Sacou R$", valorSaque)
-    escreval("---------------")
-    escreval("Saldo: R$",saldoTotal)
-    escreval("---------------")
-  fimse
+  escreval("Você Sacou R$", valorSaque)
+  escreval("---------------")
+  escreval("Saldo: R$",saldoTotal)
+  escreval("---------------")
+fimse
 
 
 
