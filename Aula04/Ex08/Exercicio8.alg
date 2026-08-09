@@ -11,7 +11,7 @@ clienteVIP : caractere
 valorCompra : real
 
 Inicio
-    escreval("Bem-vindo ao sistema!")
+    escreval("Bem-vindo Cliente!")
     escreval("Por favor, informe se você é cliente VIP e o valor da sua compra.")
     escreval("Digite V para verdadeiro e F para falso.")
     escreval("Você é cliente VIP? (V/F)")
@@ -24,7 +24,5 @@ Inicio
     senao
             escreval("Desculpe, você não atende aos critérios para o desconto.")
     fimse
-
-
 
 fimalgoritmo
