@@ -1,4 +1,4 @@
-Algoritmo "Exercicio"
+Algoritmo "Exercicio8"
 
 { Descrição:Um cliente recebe um desconto especial se for cliente VIP 
 E a compra for maior que R$300. 
