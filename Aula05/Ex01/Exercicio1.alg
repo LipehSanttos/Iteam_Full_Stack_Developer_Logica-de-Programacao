@@ -10,32 +10,32 @@ acima de 30 -> Obesidade.}
 // Data: 09/08/2026
 
 Var
-   peso, altura, imc: real
+peso, altura, imc: real
 
 Inicio
 
-   escreval("Digite o peso (em kg): ")
-   leia(peso)
+    escreval("Digite o peso (em kg): ")
+    leia(peso)
 
-   escreval("Digite a altura (em metros): ")
-   leia(altura)
+    escreval("Digite a altura (em metros): ")
+    leia(altura)
 
-   imc <- peso / (altura ^ 2)
+    imc <- peso / (altura ^ 2)
 
-   escreval("O IMC calculado é: ", imc)
+    escreval("O IMC calculado é: ", imc)
 
-   se imc < 18.5 entao
-      escreval("Classificação: Abaixo do peso")
-   senao
-      se imc < 25 entao
-         escreval("Classificação: Peso normal")
-      senao
-         se imc < 30 entao
-            escreval("Classificação: Sobrepeso")
-         senao
-            escreval("Classificação: Obesidade")
-         fimse
-      fimse
-   fimse
+    se imc < 18.5 entao
+        escreval("Classificação: Abaixo do peso")
+    senao
+        se imc < 25 entao
+            escreval("Classificação: Peso normal")
+        senao
+            se imc < 30 entao
+                escreval("Classificação: Sobrepeso")
+            senao
+                escreval("Classificação: Obesidade")
+            fimse
+        fimse
+    fimse
 
 fimalgoritmo
